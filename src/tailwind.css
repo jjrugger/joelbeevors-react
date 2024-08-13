@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Canterbury';
+    src: url('./fonts/Canterbury.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Caudex';
+    src: url('./fonts/Caudex-Regular.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+  }
+
+  @keyframes borderslide {
+    0% {
+      left: 50%;
+      width: 0;
+    }
+    100% {
+      left: 0;
+      width: 100%;
+    }
+  }
+  
+  .underline-slide {
+    position: relative; /* Essential for absolute positioning of the ::after */
+    overflow: hidden; /* Keeps the pseudo-element contained */
+  }
+  
+  .underline-slide::after {
+    content: '"';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FF8243;
+    animation: 1s ease 0.3s borderslide forwards;
+    will-change: width, left;
+  }
+  
+  picture::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(#0000 0.0000045%, #000 0.0005%);
+    mix-blend-mode: overlay;
+  }
+
+  *::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #191919;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #FF8243;
+    border-radius: 4px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: #FF8243; 
+  }
