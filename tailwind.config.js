@@ -5,20 +5,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'goth-orange': '#FF8243',
-        'light-orange': '#ffc87c',
-        'dark-gray': '#191919',
+        'primary': '#E6D5B8',
+        'secondary': '#2E3A4E',
+        'tertiary': '#B35A38',
+        'neutral': '#E6D5B8',
       },
       fontFamily: {
-        'canterbury': ['"Canterbury"', 'serif'], 
-        'caudex': ['"Caudex"', 'serif'], 
-      },
-      fontSize: {
-        'title': '98px',
-        'body': '48px',
-      },
-      overlayShaddow: {
-        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        'canterbury': ['"Canterbury"', 'serif'],
+        'caudex': ['"Caudex"', 'serif'],
+        'bebas': ['"Bebas Neue"', 'sans-serif'],
+        'mono-tech': ['"Share Tech Mono"', 'monospace'],
+        'inter': ['"Inter"', 'sans-serif'],
       }
     },
   },
