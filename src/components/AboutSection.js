@@ -16,7 +16,7 @@ function AboutSection() {
             My work sits at an interesting crossroads — I'm just as comfortable with modern, clean tech aesthetics as I am with the darker, gothic and alternative side of design. That duality feeds into everything I build: precise and functional, but with a personality behind it.
           </p>
           <p className="font-mono-tech text-xs text-tertiary tracking-widest">
-            // 音楽 • ゲーム • 技術 • 本
+            {"// 音楽 • ゲーム • 技術 • 本"}
           </p>
         </div>
 
