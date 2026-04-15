@@ -61,9 +61,9 @@ function AnimatedTitle() {
   const lines = output.split("\n");
 
   return (
-    <h1 className="font-bebas text-[64px] md:text-[100px] leading-none text-secondary tracking-wide w-full md:w-[600px] min-h-[140px] md:min-h-[200px]">
+    <h1 className="font-bebas text-[64px] md:text-[100px] xl:text-[140px] 2xl:text-[180px] leading-none text-secondary tracking-wide w-full md:w-[600px] xl:w-[800px] 2xl:w-[1000px] min-h-[140px] md:min-h-[200px] xl:min-h-[280px] 2xl:min-h-[360px]">
       {lines.map((line, i) => (
-        <span key={i} className="block h-[70px] md:h-[100px] overflow-hidden">
+        <span key={i} className="block h-[70px] md:h-[100px] xl:h-[140px] 2xl:h-[180px] overflow-hidden">
           {line || "\u00A0"}
         </span>
       ))}
