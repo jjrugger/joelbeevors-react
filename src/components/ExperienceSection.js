@@ -22,7 +22,7 @@ function ExperienceSection() {
               <span className="text-secondary/30 relative -top-0.5">|</span>
               <a href="https://uppbeat.io" target="_blank" rel="noreferrer" className="font-inter font-black text-secondary text-lg tracking-widest uppercase hover:text-tertiary transition-colors">Uppbeat</a>
             </div>
-            <p className="font-mono-tech text-xs text-secondary/50 tracking-widest">現在の雇用 — フロントエンド開発者</p>
+            <p className="font-mono-tech text-xs text-secondary/50 tracking-widest">現在の雇用 / フロントエンド開発者</p>
             <p className="font-inter text-sm text-secondary/70 leading-relaxed max-w-2xl">
               Musicvine and Uppbeat provide music licensing for creators and businesses worldwide. As a front-end developer, my role involves building and maintaining the platforms that power both products, creating fast, accessible, and polished user experiences that make finding and licensing music as seamless as possible.
             </p>
@@ -48,7 +48,7 @@ function ExperienceSection() {
           <span className="bg-secondary/10 text-secondary font-mono-tech text-xs px-2 py-1 tracking-widest uppercase mt-1 shrink-0">Previous</span>
           <div className="flex flex-col gap-3">
             <a href="https://www.union.co.uk" target="_blank" rel="noreferrer" className="font-inter font-black text-secondary text-lg tracking-widest uppercase hover:text-tertiary transition-colors">The Union</a>
-            <p className="font-mono-tech text-xs text-secondary/50 tracking-widest">以前の雇用 — フロントエンド開発者</p>
+            <p className="font-mono-tech text-xs text-secondary/50 tracking-widest">以前の雇用 / フロントエンド開発者</p>
             <p className="font-inter text-sm text-secondary/70 leading-relaxed max-w-2xl">
               The Union is one of Scotland's leading advertising and marketing agencies. During my time there I built and maintained countless client websites, working across a wide range of industries and briefs, delivering polished, on-brand digital experiences to some of their biggest accounts.
             </p>

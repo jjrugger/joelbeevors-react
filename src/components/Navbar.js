@@ -31,11 +31,6 @@ function Navbar() {
           <NavLink href="#contact" label="Contact" />
         </div>
 
-        <div className="hidden lg:flex items-center gap-3">
-          <span className="font-mono-tech text-xs text-secondary tracking-widest uppercase">Status: OK</span>
-          <span className="bg-secondary text-primary font-mono-tech text-xs px-3 py-1 tracking-widest">アクティブ</span>
-        </div>
-
         <button
           className="lg:hidden font-mono-tech text-secondary text-xs tracking-widest"
           onClick={() => setOpen(!open)}

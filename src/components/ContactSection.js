@@ -8,7 +8,7 @@ function ContactSection() {
 
       <div className="px-6 md:px-8 py-6 max-w-xl">
         <p className="font-inter text-sm text-secondary/80 leading-relaxed">
-          If you want to get in touch — whether it's about a project, a collaboration, or just to say hello — feel free to reach out. I'm always open to interesting conversations and new opportunities.
+          If you want to get in touch, whether it's about a project, a collaboration, or just to say hello, feel free to reach out. I'm always open to interesting conversations and new opportunities.
         </p>
       </div>
 
