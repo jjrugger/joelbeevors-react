@@ -25,7 +25,7 @@ function Hero() {
           </span>
           <span className="w-8 h-px bg-secondary/50 hidden sm:inline-block"></span>
           <span className="font-mono-tech text-xs xl:text-sm 2xl:text-base text-secondary/60 whitespace-nowrap">
-            フロントエンド開発者 — 東京 / 2026
+            フロントエンド開発者 / 東京 / 2026
           </span>
         </div>
       </div>

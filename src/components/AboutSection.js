@@ -13,7 +13,7 @@ function AboutSection() {
             I'm a front-end developer based in Leeds with a passion for building things that are as sharp to look at as they are to use. When I'm not pushing pixels, you'll find me deep in a good book, hunting down new music, grinding through a game, or tinkering with the latest in tech.
           </p>
           <p className="font-inter text-sm text-secondary/80 leading-relaxed">
-            My work sits at an interesting crossroads — I'm just as comfortable with modern, clean tech aesthetics as I am with the darker, gothic and alternative side of design. That duality feeds into everything I build: precise and functional, but with a personality behind it.
+            My work sits at an interesting crossroads: I'm just as comfortable with modern, clean tech aesthetics as I am with the darker, gothic and alternative side of design. That duality feeds into everything I build: precise and functional, but with a personality behind it.
           </p>
           <p className="font-mono-tech text-xs text-tertiary tracking-widest">
             {"// 音楽 • ゲーム • 技術 • 本"}
